@@ -7,11 +7,11 @@ cc.Class({
     },
 
     update (dt) {
-        var y = this.node.y;
-        y -= this.speed * dt;
-        if (y<= -640) {
-            y = 0;
-        }
-        this.node.y = y;
+        // var y = this.node.y;
+        // y -= this.speed * dt;
+        // if (y<= -640) {
+        //     y = 0;
+        // }
+        // this.node.y = y;
     },
 });
